@@ -1,0 +1,42 @@
+.ask-container {
+    width: 700px;
+    margin: 30px auto;
+}
+
+.ask-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2d3748;
+}
+
+.ask-container textarea {
+    width: 100%;
+    height: 140px;
+    padding: 15px;
+    font-size: 16px;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.ask-container textarea:focus {
+    border-color: #4f46e5;
+}
+
+.ask-container button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background: #4f46e5;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.ask-container button:hover {
+    background: #4338ca;
+}
